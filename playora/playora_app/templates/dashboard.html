@@ -1,92 +1,94 @@
-{% load static %}
-  
+
+
+
 {% include 'sidebar.html' %}
-  <div class="@container">
-    <div class="@[480px]:p-4">
-      <div
-        class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-start justify-end px-4 pb-10 @[480px]:px-10"
-        style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDT_Q6cmSld8gr4fCWy0WZVtOkSJtr4zhKe2DiVFVmqYvMkXRL9D_PyRbUf79ZvQedYQxAD485TzRubfeOaP9TaxIvJg4MasqcE1Q8g6rDmsP3OksM7fuwYJjme_RSh4XCpz4_uArZWOBn__AFmtTYc4Ele7YQMWgNaMp3HLoKk0sbawMjauz_snQnNy2VMG7WD2PqfC-y5WCOk1IxNRd4yMJtFBKkxzw19nl5NX-AwSFaAJiGfbWYY5WUoIBYHk9lxmqpj0JTuzrO5");'
-      >
-        <div class="flex flex-col gap-2 text-left">
-          <h1
-            class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
-          >
-            Welcome back, Sophia!
-          </h1>
-          <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
-            Ready to challenge your friends and climb the leaderboard?
-          </h2>
-        </div>
-        <button
-          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#cc2aed] text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+
+<div class="@container" style="margin-top: -600px; margin-left: 250px;">
+  <div class="@[480px]:p-4">
+    <div
+      class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-start justify-end px-4 pb-10 @[480px]:px-10"
+      style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDT_Q6cmSld8gr4fCWy0WZVtOkSJtr4zhKe2DiVFVmqYvMkXRL9D_PyRbUf79ZvQedYQxAD485TzRubfeOaP9TaxIvJg4MasqcE1Q8g6rDmsP3OksM7fuwYJjme_RSh4XCpz4_uArZWOBn__AFmtTYc4Ele7YQMWgNaMp3HLoKk0sbawMjauz_snQnNy2VMG7WD2PqfC-y5WCOk1IxNRd4yMJtFBKkxzw19nl5NX-AwSFaAJiGfbWYY5WUoIBYHk9lxmqpj0JTuzrO5");'
+    >
+      <div class="flex flex-col gap-2 text-left">
+        <h1
+          class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
         >
-          <span class="truncate">Start a New Challenge</span>
-        </button>
+          Welcome back, Sophia!
+        </h1>
+        <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+          Ready to challenge your friends and climb the leaderboard?
+        </h2>
       </div>
+      <button
+        class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#cc2aed] text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+      >
+        <span class="truncate">Start a New Challenge</span>
+      </button>
     </div>
+  </div>
   </div>
   <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Your Stats</h2>
   <div class="flex flex-wrap gap-4 p-4">
-    <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 bg-[#362839]">
-      <p class="text-white text-base font-medium leading-normal">Total Points</p>
-      <p class="text-white tracking-light text-2xl font-bold leading-tight">12,500</p>
-    </div>
-    <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 bg-[#362839]">
-      <p class="text-white text-base font-medium leading-normal">Badges Earned</p>
-      <p class="text-white tracking-light text-2xl font-bold leading-tight">25</p>
-    </div>
-    <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 bg-[#362839]">
-      <p class="text-white text-base font-medium leading-normal">Challenges Won</p>
-      <p class="text-white tracking-light text-2xl font-bold leading-tight">18</p>
-    </div>
+  <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 bg-[#362839]">
+    <p class="text-white text-base font-medium leading-normal">Total Points</p>
+    <p class="text-white tracking-light text-2xl font-bold leading-tight">12,500</p>
+  </div>
+  <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 bg-[#362839]">
+    <p class="text-white text-base font-medium leading-normal">Badges Earned</p>
+    <p class="text-white tracking-light text-2xl font-bold leading-tight">25</p>
+  </div>
+  <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 bg-[#362839]">
+    <p class="text-white text-base font-medium leading-normal">Challenges Won</p>
+    <p class="text-white tracking-light text-2xl font-bold leading-tight">18</p>
+  </div>
   </div>
   <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Active Challenges</h2>
   <div class="p-4">
-    <div class="flex items-stretch justify-between gap-4 rounded-xl">
-      <div class="flex flex-[2_2_0px] flex-col gap-4">
-        <div class="flex flex-col gap-1">
-          <p class="text-[#b49db9] text-sm font-normal leading-normal">Ongoing</p>
-          <p class="text-white text-base font-bold leading-tight">Trivia Night: History Buffs</p>
-          <p class="text-[#b49db9] text-sm font-normal leading-normal">vs. Alex</p>
-        </div>
-        <button
-          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 flex-row-reverse bg-[#362839] text-white text-sm font-medium leading-normal w-fit"
-        >
-          <span class="truncate">View Challenge</span>
-        </button>
+  <div class="flex items-stretch justify-between gap-4 rounded-xl">
+    <div class="flex flex-[2_2_0px] flex-col gap-4">
+      <div class="flex flex-col gap-1">
+        <p class="text-[#b49db9] text-sm font-normal leading-normal">Ongoing</p>
+        <p class="text-white text-base font-bold leading-tight">Trivia Night: History Buffs</p>
+        <p class="text-[#b49db9] text-sm font-normal leading-normal">vs. Alex</p>
       </div>
-      <div
-        class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
-        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBOodm3i_l4YHh2jYg_aQQ8k-UYhrB1A0oq_fCfmNhkCtF6MKlsvvwOoNZbP5c9_PIjy1UTBBHZjH5AfMLJV10ivJ04e0JHVmo7iOZvXigDe8S94GpYENHzFZ0CLwB8huEbS3EcU9rBpV0USwn2PCCgJyJDnpwpkXPFl9z8Ntql4cLudm5fPaZvOB6zbquQMlgcq3vEaKs98V8Wlpv_XGFme5M-GvXtbBvvFQBvojxp7PesmRGESvCBaMhBumD2xb7uo6TUCyEm8i4D");'
-      ></div>
+      <button
+        class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 flex-row-reverse bg-[#362839] text-white text-sm font-medium leading-normal w-fit"
+      >
+        <span class="truncate">View Challenge</span>
+      </button>
     </div>
+    <div
+      class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+      style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBOodm3i_l4YHh2jYg_aQQ8k-UYhrB1A0oq_fCfmNhkCtF6MKlsvvwOoNZbP5c9_PIjy1UTBBHZjH5AfMLJV10ivJ04e0JHVmo7iOZvXigDe8S94GpYENHzFZ0CLwB8huEbS3EcU9rBpV0USwn2PCCgJyJDnpwpkXPFl9z8Ntql4cLudm5fPaZvOB6zbquQMlgcq3vEaKs98V8Wlpv_XGFme5M-GvXtbBvvFQBvojxp7PesmRGESvCBaMhBumD2xb7uo6TUCyEm8i4D");'
+    ></div>
+  </div>
   </div>
   <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Activity Summary</h2>
   <div class="flex flex-wrap gap-4 px-4 py-6">
-    <div class="flex min-w-72 flex-1 flex-col gap-2 rounded-xl border border-[#4f3b54] p-6">
-      <p class="text-white text-base font-medium leading-normal">Points Over Time</p>
-      <p class="text-white tracking-light text-[32px] font-bold leading-tight truncate">+15%</p>
-      <div class="flex gap-1">
-        <p class="text-[#b49db9] text-base font-normal leading-normal">Last 7 Days</p>
-        <p class="text-[#0bda7a] text-base font-medium leading-normal">+15%</p>
-      </div>
-      <div class="grid min-h-[180px] grid-flow-col gap-6 grid-rows-[1fr_auto] items-end justify-items-center px-3">
-        <div class="border-[#b49db9] bg-[#362839] border-t-2 w-full" style="height: 20%;"></div>
-        <p class="text-[#b49db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Mon</p>
-        <div class="border-[#b49db9] bg-[#362839] border-t-2 w-full" style="height: 90%;"></div>
-        <p class="text-[#b49db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Tue</p>
-        <div class="border-[#b49db9] bg-[#362839] border-t-2 w-full" style="height: 50%;"></div>
-        <p class="text-[#b49db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Wed</p>
-        <div class="border-[#b49db9] bg-[#362839] border-t-2 w-full" style="height: 60%;"></div>
-        <p class="text-[#b49db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Thu</p>
-        <div class="border-[#b49db9] bg-[#362839] border-t-2 w-full" style="height: 20%;"></div>
-        <p class="text-[#b49db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Fri</p>
-        <div class="border-[#b49db9] bg-[#362839] border-t-2 w-full" style="height: 80%;"></div>
-        <p class="text-[#b49db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Sat</p>
-        <div class="border-[#b49db9] bg-[#362839] border-t-2 w-full" style="height: 80%;"></div>
-        <p class="text-[#b49db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Sun</p>
-      </div>
+  <div class="flex min-w-72 flex-1 flex-col gap-2 rounded-xl border border-[#4f3b54] p-6">
+    <p class="text-white text-base font-medium leading-normal">Points Over Time</p>
+    <p class="text-white tracking-light text-[32px] font-bold leading-tight truncate">+15%</p>
+    <div class="flex gap-1">
+      <p class="text-[#b49db9] text-base font-normal leading-normal">Last 7 Days</p>
+      <p class="text-[#0bda7a] text-base font-medium leading-normal">+15%</p>
+    </div>
+    <div class="grid min-h-[180px] grid-flow-col gap-6 grid-rows-[1fr_auto] items-end justify-items-center px-3">
+      <div class="border-[#b49db9] bg-[#362839] border-t-2 w-full" style="height: 20%;"></div>
+      <p class="text-[#b49db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Mon</p>
+      <div class="border-[#b49db9] bg-[#362839] border-t-2 w-full" style="height: 90%;"></div>
+      <p class="text-[#b49db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Tue</p>
+      <div class="border-[#b49db9] bg-[#362839] border-t-2 w-full" style="height: 50%;"></div>
+      <p class="text-[#b49db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Wed</p>
+      <div class="border-[#b49db9] bg-[#362839] border-t-2 w-full" style="height: 60%;"></div>
+      <p class="text-[#b49db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Thu</p>
+      <div class="border-[#b49db9] bg-[#362839] border-t-2 w-full" style="height: 20%;"></div>
+      <p class="text-[#b49db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Fri</p>
+      <div class="border-[#b49db9] bg-[#362839] border-t-2 w-full" style="height: 80%;"></div>
+      <p class="text-[#b49db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Sat</p>
+      <div class="border-[#b49db9] bg-[#362839] border-t-2 w-full" style="height: 80%;"></div>
+      <p class="text-[#b49db9] text-[13px] font-bold leading-normal tracking-[0.015em]">Sun</p>
     </div>
   </div>
-</div>
-        
+  </div>
+  
+      

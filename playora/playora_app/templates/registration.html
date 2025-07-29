@@ -31,7 +31,7 @@
             margin: 0 5px;
         }
         .otp-input:focus {
-            border-color: #3b82f6;
+            border-color: linear-gradient(135deg, hsl(280 100% 60%), hsl(320 100% 70%));
             outline: none;
         }
     </style>
@@ -45,7 +45,7 @@
                     <i class="fas fa-users text-white text-2xl"></i>
                 </div>
                 <h1 class="text-2xl font-bold text-gray-800">Create Account</h1>
-                <p class="text-gray-600 mt-2">Join our HR Management System</p>
+                <p class="text-gray-600 mt-2">Join our Playora Community</p>
             </div>
 
             <!-- Social Login Buttons -->
@@ -346,7 +346,7 @@
 
             // Simulate verification
             setTimeout(() => {
-                alert('Registration Successful! Welcome to HR Management System!');
+                alert('Registration Successful! Welcome to Playora!');
                 // Redirect to home page
                 window.location.href = '/';
             }, 1000);
@@ -385,7 +385,7 @@
             // But assuming it's correct, proceed to redirect:
             if (otp.length === 6) {
                 // Optional: show loading or success message
-                window.location.href = "{% url 'home' %}";  // ✅ Django reverse-resolves to /home
+                window.location.href = "{% url 'dashboard' %}";  // ✅ Django reverse-resolves to /dashboard
             } else {
                 alert("Please enter the complete 6-digit OTP.");
             }

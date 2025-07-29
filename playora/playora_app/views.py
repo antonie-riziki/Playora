@@ -20,7 +20,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-sys.path.insert(1, './ElevateHRApp')
+sys.path.insert(1, './Playora_app')
 
 
 # Initialize Africa's Talking and Google Generative AI
@@ -68,7 +68,7 @@ def welcome_message(first_name, phone_number):
     recipients = [f"+254{str(phone_number)}"]
 
     # Set your message
-    message = f"{first_name}, Welcome to ElevateHR! Your account is now active. Lets streamline HR tasks together."
+    message = f"{first_name}, Welcome to Playora! Ignite your game, Sharpen your edge. Where fun meets strategy."
 
     # Set your shortCode or senderId
     sender = 20880
@@ -135,7 +135,7 @@ def verify_otp_view(request):
         if saved and saved['otp'] == entered_otp:
             welcome_message(first_name, phone)
             messages.success(
-                request, "Registration successful! Welcome to ElevateHR.")
+                request, "Registration successful! Welcome to Playora.")
             return redirect('home')  # or your actual home page
         else:
             messages.error(request, "Invalid OTP. Please try again.")
@@ -144,7 +144,7 @@ def verify_otp_view(request):
 
 
 def login(request):
-    return render(request, 'login.html')
+    return render(request, 'signin.html')
     
 
 def home(request):
