@@ -1,17 +1,5 @@
-<!--
-=========================================================
-* Soft UI Dashboard Tailwind - v1.0.5
-=========================================================
+{% load static %}
 
-* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-tailwind
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://www.creative-tim.com/license)
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
--->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -21,8 +9,8 @@
     <link
       rel="apple-touch-icon"
       sizes="76x76"
-      href="../assets/img/apple-icon.png" />
-    <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
+      href="{% static 'img/apple-icon.png' %}" />
+    <link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}" />
     <title>Soft UI Dashboard Tailwind</title>
     <!--     Fonts and icons     -->
     <link
@@ -33,13 +21,13 @@
       src="https://kit.fontawesome.com/42d5adcbca.js"
       crossorigin="anonymous"></script>
     <!-- Nucleo Icons -->
-    <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
-    <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
+    <link href="{% static 'css/nucleo-icons.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/nucleo-svg.css' %}" rel="stylesheet" />
     <!-- Popper -->
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <!-- Main Styling -->
     <link
-      href="../assets/css/soft-ui-dashboard-tailwind.css?v=1.0.5"
+      href="{% static 'css/soft-ui-dashboard-tailwind.css' %}'"
       rel="stylesheet" />
 
     <!-- Nepcha Analytics (nepcha.com) -->
@@ -62,7 +50,7 @@
           href="../pages/dashboard.html"
           target="_blank">
           <img
-            src="../assets/img/logo-ct.png"
+            src="{% static 'img/logo-ct.png' %}"
             class="inline h-full max-w-full transition-all duration-200 ease-nav-brand max-h-8"
             alt="main_logo" />
           <span
@@ -595,7 +583,7 @@
                       <div class="flex py-1">
                         <div class="my-auto">
                           <img
-                            src="../assets/img/team-2.jpg"
+                            src="{% static 'img/team-2.jpg' %}"
                             class="inline-flex items-center justify-center mr-4 text-white text-sm h-9 w-9 max-w-none rounded-xl" />
                         </div>
                         <div class="flex flex-col justify-center">
@@ -619,7 +607,7 @@
                       <div class="flex py-1">
                         <div class="my-auto">
                           <img
-                            src="../assets/img/small-logos/logo-spotify.svg"
+                            src="{% static 'img/small-logos/logo-spotify.svg' %}"
                             class="inline-flex items-center justify-center mr-4 text-white text-sm bg-gradient-to-tl from-gray-900 to-slate-800 h-9 w-9 max-w-none rounded-xl" />
                         </div>
                         <div class="flex flex-col justify-center">
@@ -713,7 +701,7 @@
               <div
                 class="text-base ease-soft-in-out h-18.5 w-18.5 relative inline-flex items-center justify-center rounded-xl text-white transition-all duration-200">
                 <img
-                  src="../assets/img/bruce-mars.jpg"
+                  src="{% static 'img/bruce-mars.jpg' %}"
                   alt="profile_image"
                   class="w-full shadow-soft-sm rounded-xl" />
               </div>
@@ -1095,7 +1083,7 @@
                     <div
                       class="inline-flex items-center justify-center w-12 h-12 mr-4 text-white transition-all duration-200 text-base ease-soft-in-out rounded-xl">
                       <img
-                        src="../assets/img/kal-visuals-square.jpg"
+                        src="{% static 'img/kal-visuals-square.jpg' %}"
                         alt="kal"
                         class="w-full shadow-soft-2xl rounded-xl" />
                     </div>
@@ -1116,7 +1104,7 @@
                     <div
                       class="inline-flex items-center justify-center w-12 h-12 mr-4 text-white transition-all duration-200 text-base ease-soft-in-out rounded-xl">
                       <img
-                        src="../assets/img/marie.jpg"
+                        src="{% static 'img/marie.jpg' %}"
                         alt="kal"
                         class="w-full shadow-soft-2xl rounded-xl" />
                     </div>
@@ -1137,7 +1125,7 @@
                     <div
                       class="inline-flex items-center justify-center w-12 h-12 mr-4 text-white transition-all duration-200 text-base ease-soft-in-out rounded-xl">
                       <img
-                        src="../assets/img/ivana-square.jpg"
+                        src="{% static 'img/ivana-square.jpg' %}"
                         alt="kal"
                         class="w-full shadow-soft-2xl rounded-xl" />
                     </div>
@@ -1158,7 +1146,7 @@
                     <div
                       class="inline-flex items-center justify-center w-12 h-12 mr-4 text-white transition-all duration-200 text-base ease-soft-in-out rounded-xl">
                       <img
-                        src="../assets/img/team-4.jpg"
+                        src="{% static 'img/team-4.jpg' %}"
                         alt="kal"
                         class="w-full shadow-soft-2xl rounded-xl" />
                     </div>
@@ -1179,7 +1167,7 @@
                     <div
                       class="inline-flex items-center justify-center w-12 h-12 mr-4 text-white transition-all duration-200 text-base ease-soft-in-out rounded-xl">
                       <img
-                        src="../assets/img/team-3.jpg"
+                        src="{% static 'img/team-3.jpg' %}"
                         alt="kal"
                         class="w-full shadow-soft-2xl rounded-xl" />
                     </div>
@@ -1215,7 +1203,7 @@
                       <div class="relative">
                         <a class="block shadow-xl rounded-2xl">
                           <img
-                            src="../assets/img/home-decor-1.jpg"
+                            src="{% static 'img/home-decor-1.jpg' %}"
                             alt="img-blur-shadow"
                             class="max-w-full shadow-soft-2xl rounded-2xl" />
                         </a>
@@ -1247,7 +1235,7 @@
                               <img
                                 class="w-full rounded-circle"
                                 alt="Image placeholder"
-                                src="../assets/img/team-1.jpg" />
+                                src="{% static 'img/team-1.jpg' %}" />
                             </a>
                             <div
                               data-target="tooltip"
@@ -1266,7 +1254,7 @@
                               <img
                                 class="w-full rounded-circle"
                                 alt="Image placeholder"
-                                src="../assets/img/team-2.jpg" />
+                                src="{% static 'img/team-2.jpg' %}" />
                             </a>
                             <div
                               data-target="tooltip"
@@ -1285,7 +1273,7 @@
                               <img
                                 class="w-full rounded-circle"
                                 alt="Image placeholder"
-                                src="../assets/img/team-3.jpg" />
+                                src="{% static 'img/team-3.jpg' %}" />
                             </a>
                             <div
                               data-target="tooltip"
@@ -1304,7 +1292,7 @@
                               <img
                                 class="w-full rounded-circle"
                                 alt="Image placeholder"
-                                src="../assets/img/team-4.jpg" />
+                                src="{% static 'img/team-4.jpg' %}" />
                             </a>
                             <div
                               data-target="tooltip"
@@ -1327,7 +1315,7 @@
                       <div class="relative">
                         <a class="block shadow-xl rounded-2xl">
                           <img
-                            src="../assets/img/home-decor-2.jpg"
+                            src="{% static 'img/home-decor-2.jpg' %}"
                             alt="img-blur-shadow"
                             class="max-w-full shadow-soft-2xl rounded-xl" />
                         </a>
@@ -1359,7 +1347,7 @@
                               <img
                                 class="w-full rounded-circle"
                                 alt="Image placeholder"
-                                src="../assets/img/team-3.jpg" />
+                                src="{% static 'img/team-3.jpg' %}" />
                             </a>
                             <div
                               data-target="tooltip"
@@ -1378,7 +1366,7 @@
                               <img
                                 class="w-full rounded-circle"
                                 alt="Image placeholder"
-                                src="../assets/img/team-4.jpg" />
+                                src="{% static 'img/team-4.jpg' %}" />
                             </a>
                             <div
                               data-target="tooltip"
@@ -1397,7 +1385,7 @@
                               <img
                                 class="w-full rounded-circle"
                                 alt="Image placeholder"
-                                src="../assets/img/team-1.jpg" />
+                                src="{% static 'img/team-1.jpg' %}" />
                             </a>
                             <div
                               data-target="tooltip"
@@ -1416,7 +1404,7 @@
                               <img
                                 class="w-full rounded-circle"
                                 alt="Image placeholder"
-                                src="../assets/img/team-2.jpg" />
+                                src="{% static 'img/team-2.jpg' %}" />
                             </a>
                             <div
                               data-target="tooltip"
@@ -1439,7 +1427,7 @@
                       <div class="relative">
                         <a class="block shadow-xl rounded-2xl">
                           <img
-                            src="../assets/img/home-decor-3.jpg"
+                            src="{% static 'img/home-decor-3.jpg' %}"
                             alt="img-blur-shadow"
                             class="max-w-full shadow-soft-2xl rounded-2xl" />
                         </a>
@@ -1471,7 +1459,7 @@
                               <img
                                 class="w-full rounded-circle"
                                 alt="Image placeholder"
-                                src="../assets/img/team-4.jpg" />
+                                src="{% static 'img/team-4.jpg' %}" />
                             </a>
                             <div
                               data-target="tooltip"
@@ -1490,7 +1478,7 @@
                               <img
                                 class="w-full rounded-circle"
                                 alt="Image placeholder"
-                                src="../assets/img/team-3.jpg" />
+                                src="{% static 'img/team-3.jpg' %}" />
                             </a>
                             <div
                               data-target="tooltip"
@@ -1509,7 +1497,7 @@
                               <img
                                 class="w-full rounded-circle"
                                 alt="Image placeholder"
-                                src="../assets/img/team-2.jpg" />
+                                src="{% static 'img/team-2.jpg' %}" />
                             </a>
                             <div
                               data-target="tooltip"
@@ -1528,7 +1516,7 @@
                               <img
                                 class="w-full rounded-circle"
                                 alt="Image placeholder"
-                                src="../assets/img/team-1.jpg" />
+                                src="{% static 'img/team-1.jpg' %}" />
                             </a>
                             <div
                               data-target="tooltip"
@@ -1763,11 +1751,11 @@
     </div>
   </body>
   <!-- plugin for scrollbar  -->
-  <script src="../assets/js/plugins/perfect-scrollbar.min.js" async></script>
+  <script src="{% static 'js/plugins/perfect-scrollbar.min.js' %}" async></script>
   <!-- github button -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- main script file  -->
   <script
-    src="../assets/js/soft-ui-dashboard-tailwind.js?v=1.0.5"
+    src="{% static 'js/soft-ui-dashboard-tailwind.js' %}"
     async></script>
 </html>
