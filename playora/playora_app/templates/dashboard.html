@@ -1,17 +1,4 @@
-<!--
-=========================================================
-* Soft UI Dashboard Tailwind - v1.0.5
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-tailwind
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://www.creative-tim.com/license)
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
--->
+{% load static %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -20,8 +7,8 @@
     <link
       rel="apple-touch-icon"
       sizes="76x76"
-      href="../assets/img/apple-icon.png" />
-    <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
+      href="{% static 'img/apple-icon.png' %}" />
+    <link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}" />
     <title>Soft UI Dashboard Tailwind</title>
     <!--     Fonts and icons     -->
     <link
@@ -32,13 +19,13 @@
       src="https://kit.fontawesome.com/42d5adcbca.js"
       crossorigin="anonymous"></script>
     <!-- Nucleo Icons -->
-    <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
-    <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
+    <link href="{% static 'css/nucleo-icons.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/nucleo-svg.css' %}" rel="stylesheet" />
     <!-- Popper -->
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <!-- Main Styling -->
     <link
-      href="../assets/css/soft-ui-dashboard-tailwind.css?v=1.0.5"
+      href="{% static 'css/soft-ui-dashboard-tailwind.css?v=1.0.5' %}"
       rel="stylesheet" />
 
     <!-- Nepcha Analytics (nepcha.com) -->
@@ -63,7 +50,7 @@
           href="javascript:;"
           target="_blank">
           <img
-            src="../assets/img/logo-ct.png"
+            src="{% static 'img/logo-ct.png' %}"
             class="inline h-full max-w-full transition-all duration-200 ease-nav-brand max-h-8"
             alt="main_logo" />
           <span
@@ -465,7 +452,7 @@
           <div
             class="mb-7.5 absolute h-full w-full rounded-2xl bg-cover bg-center"
             style="
-              background-image: url('../assets/img/curved-images/white-curved.jpeg');
+              background-image: url("{% static 'img/curved-images/white-curved.jpeg' %}");
             "></div>
           <div class="relative z-20 flex-auto w-full p-4 text-left text-white">
             <div
@@ -598,7 +585,7 @@
                       <div class="flex py-1">
                         <div class="my-auto">
                           <img
-                            src="../assets/img/team-2.jpg"
+                            src="{% static 'img/team-2.jpg' %}"
                             class="inline-flex items-center justify-center mr-4 text-white text-sm h-9 w-9 max-w-none rounded-xl" />
                         </div>
                         <div class="flex flex-col justify-center">
@@ -622,7 +609,7 @@
                       <div class="flex py-1">
                         <div class="my-auto">
                           <img
-                            src="../assets/img/small-logos/logo-spotify.svg"
+                            src="{% static 'img/small-logos/logo-spotify.svg' %}"
                             class="inline-flex items-center justify-center mr-4 text-white text-sm bg-gradient-to-tl from-gray-900 to-slate-800 h-9 w-9 max-w-none rounded-xl" />
                         </div>
                         <div class="flex flex-col justify-center">
@@ -870,14 +857,14 @@
                     <div
                       class="h-full bg-gradient-to-tl from-purple-700 to-pink-500 rounded-xl">
                       <img
-                        src="../assets/img/shapes/waves-white.svg"
+                        src="{% static 'img/shapes/waves-white.svg' %}"
                         class="absolute top-0 hidden w-1/2 h-full lg:block"
                         alt="waves" />
                       <div
                         class="relative flex items-center justify-center h-full">
                         <img
                           class="relative z-20 w-full pt-6"
-                          src="../assets/img/illustrations/rocket-white.png"
+                          src="{% static 'img/illustrations/rocket-white.png' %}"
                           alt="rocket" />
                       </div>
                     </div>
@@ -1279,7 +1266,7 @@
                           <div class="flex px-2 py-1">
                             <div>
                               <img
-                                src="../assets/img/small-logos/logo-xd.svg"
+                                src="{% static 'img/small-logos/logo-xd.svg' %}"
                                 class="inline-flex items-center justify-center mr-4 text-white transition-all duration-200 ease-soft-in-out text-sm h-9 w-9 rounded-xl"
                                 alt="xd" />
                             </div>
@@ -1299,7 +1286,7 @@
                               data-target="tooltip_trigger"
                               data-placement="bottom">
                               <img
-                                src="../assets/img/team-1.jpg"
+                                src="{% static 'img/team-1.jpg' %}"
                                 class="w-full rounded-full"
                                 alt="team1" />
                             </a>
@@ -1318,7 +1305,7 @@
                               data-target="tooltip_trigger"
                               data-placement="bottom">
                               <img
-                                src="../assets/img/team-2.jpg"
+                                src="{% static 'img/team-2.jpg' %}"
                                 class="w-full rounded-full"
                                 alt="team2" />
                             </a>
@@ -1337,7 +1324,7 @@
                               data-target="tooltip_trigger"
                               data-placement="bottom">
                               <img
-                                src="../assets/img/team-3.jpg"
+                                src="{% static 'img/team-3.jpg' %}"
                                 class="w-full rounded-full"
                                 alt="team3" />
                             </a>
@@ -1356,7 +1343,7 @@
                               data-target="tooltip_trigger"
                               data-placement="bottom">
                               <img
-                                src="../assets/img/team-4.jpg"
+                                src="{% static 'img/team-4.jpg' %}"
                                 class="w-full rounded-full"
                                 alt="team4" />
                             </a>
@@ -1406,7 +1393,7 @@
                           <div class="flex px-2 py-1">
                             <div>
                               <img
-                                src="../assets/img/small-logos/logo-atlassian.svg"
+                                src="{% static 'img/small-logos/logo-atlassian.svg' %}"
                                 class="inline-flex items-center justify-center mr-4 text-white transition-all duration-200 ease-soft-in-out text-sm h-9 w-9 rounded-xl"
                                 alt="atlassian" />
                             </div>
@@ -1426,7 +1413,7 @@
                               data-target="tooltip_trigger"
                               data-placement="bottom">
                               <img
-                                src="../assets/img/team-2.jpg"
+                                src="{% static 'img/team-2.jpg' %}"
                                 class="w-full rounded-full"
                                 alt="team5" />
                             </a>
@@ -1445,7 +1432,7 @@
                               data-target="tooltip_trigger"
                               data-placement="bottom">
                               <img
-                                src="../assets/img/team-4.jpg"
+                                src="{% static 'img/team-4.jpg' %}"
                                 class="w-full rounded-full"
                                 alt="team6" />
                             </a>
@@ -1495,7 +1482,7 @@
                           <div class="flex px-2 py-1">
                             <div>
                               <img
-                                src="../assets/img/small-logos/logo-slack.svg"
+                                src="{% static 'img/small-logos/logo-slack.svg' %}"
                                 class="inline-flex items-center justify-center mr-4 text-white transition-all duration-200 ease-soft-in-out text-sm h-9 w-9 rounded-xl"
                                 alt="team7" />
                             </div>
@@ -1515,7 +1502,7 @@
                               data-target="tooltip_trigger"
                               data-placement="bottom">
                               <img
-                                src="../assets/img/team-3.jpg"
+                                src="{% static 'img/team-3.jpg' %}"
                                 class="w-full rounded-full"
                                 alt="team8" />
                             </a>
@@ -1534,7 +1521,7 @@
                               data-target="tooltip_trigger"
                               data-placement="bottom">
                               <img
-                                src="../assets/img/team-1.jpg"
+                                src="{% static 'img/team-1.jpg' %}"
                                 class="w-full rounded-full"
                                 alt="team9" />
                             </a>
@@ -1584,7 +1571,7 @@
                           <div class="flex px-2 py-1">
                             <div>
                               <img
-                                src="../assets/img/small-logos/logo-spotify.svg"
+                                src="{% static 'img/small-logos/logo-spotify.svg' %}"
                                 class="inline-flex items-center justify-center mr-4 text-white transition-all duration-200 ease-soft-in-out text-sm h-9 w-9 rounded-xl"
                                 alt="spotify" />
                             </div>
@@ -1604,7 +1591,7 @@
                               data-target="tooltip_trigger"
                               data-placement="bottom">
                               <img
-                                src="../assets/img/team-4.jpg"
+                                src="{% static 'img/team-4.jpg' %}"
                                 class="w-full rounded-full"
                                 alt="user1" />
                             </a>
@@ -1623,7 +1610,7 @@
                               data-target="tooltip_trigger"
                               data-placement="bottom">
                               <img
-                                src="../assets/img/team-3.jpg"
+                                src="{% static 'img/team-3.jpg' %}"
                                 class="w-full rounded-full"
                                 alt="user2" />
                             </a>
@@ -1642,7 +1629,7 @@
                               data-target="tooltip_trigger"
                               data-placement="bottom">
                               <img
-                                src="../assets/img/team-4.jpg"
+                                src="{% static 'img/team-4.jpg' %}"
                                 class="w-full rounded-full"
                                 alt="user3" />
                             </a>
@@ -1661,7 +1648,7 @@
                               data-target="tooltip_trigger"
                               data-placement="bottom">
                               <img
-                                src="../assets/img/team-1.jpg"
+                                src="{% static 'img/team-1.jpg' %}"
                                 class="w-full rounded-full"
                                 alt="user4" />
                             </a>
@@ -1711,7 +1698,7 @@
                           <div class="flex px-2 py-1">
                             <div>
                               <img
-                                src="../assets/img/small-logos/logo-jira.svg"
+                                src="{% static 'img/small-logos/logo-jira.svg' %}"
                                 class="inline-flex items-center justify-center mr-4 text-white transition-all duration-200 ease-soft-in-out text-sm h-9 w-9 rounded-xl"
                                 alt="jira" />
                             </div>
@@ -1731,7 +1718,7 @@
                               data-target="tooltip_trigger"
                               data-placement="bottom">
                               <img
-                                src="../assets/img/team-4.jpg"
+                                src="{% static 'img/team-4.jpg' %}"
                                 class="w-full rounded-full"
                                 alt="user5" />
                             </a>
@@ -1781,7 +1768,7 @@
                           <div class="flex px-2 py-1">
                             <div>
                               <img
-                                src="../assets/img/small-logos/logo-invision.svg"
+                                src="{% static 'img/small-logos/logo-invision.svg' %}"
                                 class="inline-flex items-center justify-center mr-4 text-white transition-all duration-200 ease-soft-in-out text-sm h-9 w-9 rounded-xl"
                                 alt="invision" />
                             </div>
@@ -1801,7 +1788,7 @@
                               data-target="tooltip_trigger"
                               data-placement="bottom">
                               <img
-                                src="../assets/img/team-1.jpg"
+                                src="{% static 'img/team-1.jpg' %}"
                                 class="w-full rounded-full"
                                 alt="user6" />
                             </a>
@@ -1820,7 +1807,7 @@
                               data-target="tooltip_trigger"
                               data-placement="bottom">
                               <img
-                                src="../assets/img/team-4.jpg"
+                                src="{% static 'img/team-4.jpg' %}"
                                 class="w-full rounded-full"
                                 alt="user7" />
                             </a>
@@ -2209,13 +2196,13 @@
     </div>
   </body>
   <!-- plugin for charts  -->
-  <script src="../assets/js/plugins/chartjs.min.js" async></script>
+  <script src="{% static 'js/plugins/chartjs.min.js' %}" async></script>
   <!-- plugin for scrollbar  -->
-  <script src="../assets/js/plugins/perfect-scrollbar.min.js" async></script>
+  <script src="{% static 'js/plugins/perfect-scrollbar.min.js' %}" async></script>
   <!-- github button -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- main script file  -->
   <script
-    src="../assets/js/soft-ui-dashboard-tailwind.js?v=1.0.5"
+    src="{% static 'js/soft-ui-dashboard-tailwind.js?v=1.0.5' %}"
     async></script>
 </html>
