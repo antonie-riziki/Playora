@@ -165,3 +165,7 @@ def profile(request):
 
 def leaderboard(request):
     return render(request, 'tables.html')
+
+
+def billing(request):
+    return render(request, 'billing.html')
