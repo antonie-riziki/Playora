@@ -157,3 +157,11 @@ def dashboard(request):
 
 def games_dashboard(request):
     return render(request, 'games.html')
+
+
+def profile(request):
+    return render(request, 'profile.html')
+
+
+def leaderboard(request):
+    return render(request, 'leaderboard.html')
