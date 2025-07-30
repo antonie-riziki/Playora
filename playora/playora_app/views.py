@@ -164,4 +164,4 @@ def profile(request):
 
 
 def leaderboard(request):
-    return render(request, 'leaderboard.html')
+    return render(request, 'tables.html')
